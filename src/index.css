@@ -16,7 +16,8 @@ body {
 }
 .main .first{
   grid-column: 1/2;
-  background-color: #6495ED;
+  background-color: #256aeb;
+
   
 }
 .main .second{

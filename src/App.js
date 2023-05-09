@@ -20,7 +20,7 @@ function App() {
             <div style={{gridGap:'22%',display:'grid',gridTemplateColumns:'45% 45%',width:'100%',height:'10rem',marginTop:'4rem'}}>
                 <span style={{gridColumn:'1/2'}}>
                   <p style={{color:'#DAF7A6'}}>
-                    Skilled in Full stack Web Development
+                    Skilled in Full stack (MERN) Web Development
                   </p>
                 </span>
                 <span style={{gridColumn:'2/3'}}>
@@ -43,7 +43,7 @@ function App() {
         <div className="second">
           <div className="dropdown my-3">
            <button style={{marginRight:'2rem',float:'right',width:'4rem',height:'4rem'}} className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-               <BiMenuAltRight color='#6495ED' style={{width:'100%',height:'100%'}} />
+               <BiMenuAltRight color='#256aeb' style={{width:'100%',height:'100%'}} />
           </button>
           <ul className="dropdown-menu">
              <li><a href='#skills' className="dropdown-item btn" >My Skills</a></li>
@@ -61,16 +61,16 @@ function App() {
          <div id="skills" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gridColumn:'1/2',gridRow:'1/2'}}>
           <h1>Skills</h1>
           <ul style={{display:'flex',justifyContent:'center',flexDirection:'column'}}>
-             <li style={{textAlign:'left'}}>Frontend Development in React, Bootstrap and Material UI</li>
-             <li style={{textAlign:'left'}}>Backend Development in Node js, Express js and Mongo DB</li>
+             <li style={{textAlign:'left'}}>Frontend Development in <code>React, Bootstrap and Material UI</code></li>
+             <li style={{textAlign:'left'}}>Backend Development in <code>Node js, Express js and Mongo DB</code></li>
          </ul>
          </div>
          <div id="lang" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gridColumn:'2/3',gridRow:'1/2'}}>
          <h1 style={{textAlign:'center'}}>Programming Languages I use</h1>
           <ul style={{display:'flex',justifyContent:'center',flexDirection:'column'}}>
-             <li style={{textAlign:'left'}}>HTML5</li>
-             <li style={{textAlign:'left'}}>CSS3</li>
-             <li style={{textAlign:'left'}}>JAVASCRIPT</li>
+             <li style={{textAlign:'left'}}><code>HTML5</code></li>
+             <li style={{textAlign:'left'}}><code>CSS3</code></li>
+             <li style={{textAlign:'left'}}><code>JAVASCRIPT</code></li>
          </ul>
          </div>
          <div id="resume" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gridColumn:'1/3',gridRow:'2/3'}}>
