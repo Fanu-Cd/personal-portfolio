@@ -1,8 +1,7 @@
 import './App.css';
 import {BiMenuAltRight} from 'react-icons/bi'
-import profile2 from './assets/profile.jpg'
-import profile from './assets/profile2.jpg'
-import resume from './assets/Fanuel Amare Resume.pdf'
+import profile from './assets/profile.jpg'
+import resume from './assets/Resume-Fanuel-Amare.pdf'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 
