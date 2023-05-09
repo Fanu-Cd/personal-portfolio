@@ -30,7 +30,7 @@ function App() {
                   </p>
                 </span>
             </div>
-            <div className='rounded' style={{border:'1px solid #DAF7A6',margin:'1rem auto',width:'50%',minHeight:'3rem',height:'auto',display:'flex',alignItems:'center',backgroundColor:'white'}}>
+            <div className='rounded' style={{border:'1px solid #DAF7A6',margin:'1rem auto',maxWidth:'10rem',minHeight:'3rem',height:'auto',display:'flex',alignItems:'center',backgroundColor:'white'}}>
               <span style={{marginRight:'0.5rem',width:'49%',height:'100%'}}>
                <a style={{color:'black'}} href="https://github.com/Fanu-Cd"><AiFillGithub style={{width:'60%',height:'80%'}} /></a> 
               </span>
