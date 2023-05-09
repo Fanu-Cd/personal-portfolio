@@ -17,13 +17,13 @@ function App() {
               <h1 style={{textAlign:'left',color:'#DAF7A6',fontWeight:'bold'}}>Full Stack Web Developer</h1>
               <p style={{textAlign:'left',color:'white'}}>I am a MERN stack website developer with 2+ years of experience.</p>
             </div>
-            <div style={{gridGap:'22%',display:'grid',gridTemplateColumns:'45% 45%',width:'100%',height:'10rem',marginTop:'4rem'}}>
-                <span style={{gridColumn:'1/2'}}>
+            <div className='expr'>
+                <span>
                   <p style={{color:'#DAF7A6'}}>
                     Skilled in Full stack (MERN) Web Development
                   </p>
                 </span>
-                <span style={{gridColumn:'2/3'}}>
+                <span>
                   <p style={{color:'#DAF7A6'}}>
                     1+ years of experience in MERN stack website development
                   </p>
