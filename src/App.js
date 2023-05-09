@@ -30,12 +30,12 @@ function App() {
                 </span>
             </div>
             <div className='rounded' style={{border:'1px solid #DAF7A6',margin:'1rem auto',width:'50%',minHeight:'3rem',height:'auto',display:'flex',alignItems:'center',backgroundColor:'white'}}>
-              <span className='btn' style={{marginRight:'0.5rem',width:'49%',height:'100%'}}>
-               <a style={{color:'black'}} href="https://github.com/Fanu-Cd"><AiFillGithub style={{width:'80%',height:'80%'}} /></a> 
+              <span style={{marginRight:'0.5rem',width:'49%',height:'100%'}}>
+               <a style={{color:'black'}} href="https://github.com/Fanu-Cd"><AiFillGithub style={{width:'60%',height:'80%'}} /></a> 
               </span>
               <div style={{width:'0.1rem',height:'90%',backgroundColor:'black'}}></div>
-              <span className='btn'  style={{marginLeft:'0.5rem',width:'49%',height:'100%'}}>
-                <a style={{color:'black'}} href="https://www.linkedin.com/in/fanucd"><AiFillLinkedin style={{width:'80%',height:'80%'}} /></a>
+              <span  style={{marginLeft:'0.5rem',width:'49%',height:'100%'}}>
+                <a style={{color:'black'}} href="https://www.linkedin.com/in/fanucd"><AiFillLinkedin style={{width:'60%',height:'80%'}} /></a>
               </span>
             </div>
           </section>
@@ -81,7 +81,7 @@ function App() {
       <hr style={{width:'60%',margin:'auto'}}/>
       <div id='contact' className='contact'>
         <h1>Contact Address</h1>
-        <p style={{margin:'0'}}>Github Link: <a href="https://github.com/Fanu-Cd">https://github.com/Fanu-Cd</a></p>
+        <p style={{margin:'0',textAlign:'left'}}>Github Link: <a style={{textAlign:'left'}} href="https://github.com/Fanu-Cd">https://github.com/Fanu-Cd</a></p>
         <p style={{margin:'0'}}>LinkedIn Link: <a href="https://www.linkedin.com/in/fanucd">https://www.linkedin.com/in/fanucd</a></p>
       </div>
     </div>
