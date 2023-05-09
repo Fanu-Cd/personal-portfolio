@@ -1,6 +1,7 @@
 import './App.css';
 import {BiMenuAltRight} from 'react-icons/bi'
-import profile2 from './assets/101113291.jpg'
+import profile2 from './assets/profile.jpg'
+import resume from './assets/Fanuel Amare Resume.pdf'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 
@@ -75,14 +76,15 @@ function App() {
          </div>
          <div id="resume" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
          <h1>Resume</h1>
+          <a href={resume} download>
           <button className='btn border btn-secondary'>Download Resume</button>
+          </a>
          </div>
       </div>
       <hr style={{width:'60%',margin:'auto'}}/>
       <div id='contact' className='contact'>
         <h1>Contact Address</h1>
-        <p style={{margin:'0',textAlign:'left'}}>Github Link: <a style={{textAlign:'left'}} href="https://github.com/Fanu-Cd">https://github.com/Fanu-Cd</a></p>
-        <p style={{margin:'0'}}>LinkedIn Link: <a href="https://www.linkedin.com/in/fanucd">https://www.linkedin.com/in/fanucd</a></p>
+        <p style={{margin:'0'}}>Linkedin : <a href="https://www.linkedin.com/in/fanucd">https://www.linkedin.com/in/fanucd</a></p>
       </div>
     </div>
   );
