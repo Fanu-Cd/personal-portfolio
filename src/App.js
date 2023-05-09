@@ -53,7 +53,7 @@ function App() {
          </ul>
          </div>
           <div style={{border:'2px solid white',position:'relative',left:'-40%',width:'80%',height:'15rem',marginTop:'10rem'}}>
-            <img alt='profile picture' src={profile2} width='100%' height='100%' style={{objectFit:'cover',position:'relative',left:'-1rem',bottom:'1rem'}} />
+            <img alt='profile' src={profile2} width='100%' height='100%' style={{objectFit:'cover',position:'relative',left:'-1rem',bottom:'1rem'}} />
           </div>
         </div>
       </div>
