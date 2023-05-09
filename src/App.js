@@ -1,6 +1,7 @@
 import './App.css';
 import {BiMenuAltRight} from 'react-icons/bi'
 import profile2 from './assets/profile.jpg'
+import profile from './assets/profile2.jpg'
 import resume from './assets/Fanuel Amare Resume.pdf'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
@@ -54,7 +55,7 @@ function App() {
          </ul>
          </div>
           <div style={{border:'2px solid white',position:'relative',left:'-40%',width:'80%',height:'15rem',marginTop:'10rem'}}>
-            <img alt='profile' src={profile2} width='100%' height='100%' style={{objectFit:'cover',position:'relative',left:'-1rem',bottom:'1rem'}} />
+            <img alt='profile' src={profile} width='100%' height='100%' style={{objectFit:'cover',position:'relative',left:'-1rem',bottom:'1rem'}} />
           </div>
         </div>
       </div>
