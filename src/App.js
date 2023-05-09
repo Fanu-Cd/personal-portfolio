@@ -13,7 +13,7 @@ function App() {
             <p style={{margin:'0',textAlign:'left',paddingLeft:'2rem',fontSize:'2.5rem',fontWeight:'bold',color:'#DAF7A6'}}>Fanuel Amare</p>
           </header>
           <section style={{margin:'5rem 0 0 15%',maxWidth:'60%',height:'auto',minHeight:'15rem'}}>
-            <div style={{width:'100%',height:'10rem'}}>
+            <div style={{width:'100%',minHeight:'10rem',height:'auto'}}>
               <h1 style={{textAlign:'left',color:'#DAF7A6',fontWeight:'bold'}}>Full Stack Web Developer</h1>
               <p style={{textAlign:'left',color:'white'}}>I am a MERN stack website developer with 2+ years of experience.</p>
             </div>
@@ -29,7 +29,7 @@ function App() {
                   </p>
                 </span>
             </div>
-            <div className='rounded' style={{border:'1px solid #DAF7A6',margin:'1rem auto',width:'50%',height:'3rem',display:'flex',alignItems:'center',backgroundColor:'white'}}>
+            <div className='rounded' style={{border:'1px solid #DAF7A6',margin:'1rem auto',width:'50%',minHeight:'3rem',height:'auto',display:'flex',alignItems:'center',backgroundColor:'white'}}>
               <span className='btn' style={{marginRight:'0.5rem',width:'49%',height:'100%'}}>
                <a style={{color:'black'}} href="https://github.com/Fanu-Cd"><AiFillGithub style={{width:'80%',height:'80%'}} /></a> 
               </span>
@@ -57,15 +57,15 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='details my-5' style={{width:'100%',height:'20rem'}}>
-         <div id="skills" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gridColumn:'1/2',gridRow:'1/2'}}>
+      <div className='details my-5' style={{width:'100%',minHeight:'20rem',height:'auto'}}>
+         <div id="skills" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
           <h1>Skills</h1>
           <ul style={{display:'flex',justifyContent:'center',flexDirection:'column'}}>
              <li style={{textAlign:'left'}}>Frontend Development in <code>React, Bootstrap and Material UI</code></li>
              <li style={{textAlign:'left'}}>Backend Development in <code>Node js, Express js and Mongo DB</code></li>
          </ul>
          </div>
-         <div id="lang" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gridColumn:'2/3',gridRow:'1/2'}}>
+         <div id="lang" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
          <h1 style={{textAlign:'center'}}>Programming Languages I use</h1>
           <ul style={{display:'flex',justifyContent:'center',flexDirection:'column'}}>
              <li style={{textAlign:'left'}}><code>HTML5</code></li>
@@ -73,7 +73,7 @@ function App() {
              <li style={{textAlign:'left'}}><code>JAVASCRIPT</code></li>
          </ul>
          </div>
-         <div id="resume" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gridColumn:'1/3',gridRow:'2/3'}}>
+         <div id="resume" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
          <h1>Resume</h1>
           <button className='btn border btn-secondary'>Download Resume</button>
          </div>
