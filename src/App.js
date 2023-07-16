@@ -1,6 +1,6 @@
 import './App.css';
 import {BiMenuAltRight} from 'react-icons/bi'
-import profile from './assets/profile.jpg'
+import profile from './assets/profile.png'
 import resume from './assets/Resume-Fanuel-Amare.pdf'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
@@ -16,17 +16,17 @@ function App() {
           <section style={{margin:'5rem 0 0 15%',maxWidth:'60%',height:'auto',minHeight:'15rem'}}>
             <div style={{width:'100%',minHeight:'10rem',height:'auto'}}>
               <h1 style={{textAlign:'left',color:'#DAF7A6',fontWeight:'bold'}}>Full Stack Web Developer</h1>
-              <p style={{textAlign:'left',color:'white'}}>I am a MERN stack website developer with 2+ years of experience.</p>
+              <p style={{textAlign:'left',color:'white'}}>I am a full stack website developer with 2+ years of experience.</p>
             </div>
             <div className='expr'>
                 <span>
                   <p style={{color:'#DAF7A6'}}>
-                    Skilled in Full stack (MERN) Web Development
+                    Skilled in Full stack Web Development
                   </p>
                 </span>
                 <span>
                   <p style={{color:'#DAF7A6'}}>
-                    1+ years of experience in MERN stack website development
+                    2+ years of experience in full stack website development
                   </p>
                 </span>
             </div>
@@ -62,8 +62,8 @@ function App() {
          <div id="skills" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
           <h1>Skills</h1>
           <ul style={{display:'flex',justifyContent:'center',flexDirection:'column'}}>
-             <li style={{textAlign:'left'}}>Frontend Development in <code>React, Bootstrap and Material UI</code></li>
-             <li style={{textAlign:'left'}}>Backend Development in <code>Node js, Express js and Mongo DB</code></li>
+             <li style={{textAlign:'left'}}>Frontend Development in <code>React, Bootstrap, Evergreen-UI and Material-UI</code></li>
+             <li style={{textAlign:'left'}}>Backend Development in <code>Node js, Express js, MongoDB, PhP and MySQL</code></li>
          </ul>
          </div>
          <div id="lang" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
@@ -72,6 +72,7 @@ function App() {
              <li style={{textAlign:'left'}}><code>HTML5</code></li>
              <li style={{textAlign:'left'}}><code>CSS3</code></li>
              <li style={{textAlign:'left'}}><code>JAVASCRIPT</code></li>
+             <li style={{textAlign:'left'}}><code>PhP</code></li>
          </ul>
          </div>
          <div id="resume" className='detail' style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
