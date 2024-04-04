@@ -179,6 +179,9 @@ const Home2 = () => {
               Mongo DB
             </Tag>
             <Tag color="magenta" className="fs-6">
+              tailwindcss
+            </Tag>
+            <Tag color="magenta" className="fs-6">
               Ant design
             </Tag>
             <Tag color="magenta" className="fs-6">
@@ -241,6 +244,28 @@ const Home2 = () => {
                 <Tag>Express JS</Tag>
                 <Tag>Mongo DB</Tag>
                 <Tag>Materiak UI</Tag>
+                <Tag>Bootstrap</Tag>
+              </li>
+              <li className="mt-5">
+                Learning Management System(LMS)
+                <p>
+                  My LMS project automates the manual working environments in schools. It has admin and non-admin user features. Users can create user accounts by their own and then
+                  get approved by the admin or the admin creates accounts for others and share their credentials. The admin has control over user accounts
+                  and can ban and re-activate accounts. Every action related to user accounts is delivered to the respective user via email. School admins register departments and courses and assign Teachers for courses.
+                  Teachers can find their assigned courses and upload course matrials as well as exams. Students can find courses inside their departments, register for them
+                  and update their status on the courses through time. Students can also manage their activities, put notes, and upload their activity files. 
+                </p>
+                <small style={{ color: "red" }}>Skills Applied : </small>
+                <br />
+                <Tag>HTML5</Tag>
+                <Tag>CSS5</Tag>
+                <Tag>JavaScript</Tag>
+                <Tag>React</Tag>
+                <Tag>Redux</Tag>
+                <Tag>Node JS</Tag>
+                <Tag>Express JS</Tag>
+                <Tag>Mongo DB</Tag>
+                <Tag>Ant Design</Tag>
                 <Tag>Bootstrap</Tag>
               </li>
               <li className="mt-5">
