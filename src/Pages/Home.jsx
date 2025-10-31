@@ -59,6 +59,9 @@ const Home = () => {
     { name: "Express JS" },
     { name: "Mongo DB" },
     { name: "Mongoose" },
+    { name: "Prisma" },
+    { name: "PostgreSQL" },
+    { name: "Supabase" },
     { name: "Tailwindcss" },
     { name: "Ant design" },
     { name: "Bootstrap 5" },
@@ -92,6 +95,58 @@ Key contributor across full-stack development, ensuring scalability and modern a
 
   const topProjects = [
     {
+      title: "Velin (Exam Management & Delivery Platform (SaaS) )",
+      // description: `A bid management system streamlines the process of submitting,
+      //             tracking, and managing bids or proposals for projects or
+      //             contracts. It's a centralized platform that organizes
+      //             bid-related information, facilitates collaboration among team
+      //             members, and enhances the efficiency of the bidding process.
+      //             This system typically allows for the creation, submission, and
+      //             analysis of bids, optimizing the chances of securing projects
+      //             while improving overall workflow transparency and
+      //             effectiveness.`,
+      description: `Velin is a powerful SaaS platform designed to simplify and streamline exam creation, management, and delivery for institutions and organizations. Built around a subscription-based model, it empowers exam administrators and examinees with a secure and organized exam experience.
+`,
+      skills: [
+        "HTML5",
+        "CSS5",
+        "TypeScript",
+        "Next.js",
+        "Mantine-UI",
+        "Tailwindcss",
+        "Prisma",
+        "PostgreSQL",
+        "Supabase",
+      ],
+    },
+
+    {
+      title: "Betee (House Rental and Property management platform)",
+      // description: `A bid management system streamlines the process of submitting,
+      //             tracking, and managing bids or proposals for projects or
+      //             contracts. It's a centralized platform that organizes
+      //             bid-related information, facilitates collaboration among team
+      //             members, and enhances the efficiency of the bidding process.
+      //             This system typically allows for the creation, submission, and
+      //             analysis of bids, optimizing the chances of securing projects
+      //             while improving overall workflow transparency and
+      //             effectiveness.`,
+      description: `Betee is a modern web application designed to simplify the management of house and hotel room rentals. It connects admins, owners, and tenants through a seamless and efficient experience..
+`,
+      skills: [
+        "HTML5",
+        "CSS5",
+        "TypeScript",
+        "Next.js",
+        "Mantine-UI",
+        "Tailwindcss",
+        "Prisma",
+        "PostgreSQL",
+        "Supabase",
+      ],
+    },
+
+    {
       title: "Cheretanet(Bid Management System)",
       // description: `A bid management system streamlines the process of submitting,
       //             tracking, and managing bids or proposals for projects or
@@ -118,6 +173,33 @@ The system was developed using React.js, Node.js, Express.js, MongoDB, and Mongo
         "Material UI",
       ],
     },
+
+    {
+      // title: `Smart Office System`,
+      title: `kiraybet (House rental platform)`,
+      // description: `A smart office refers to an interconnected workspace enhanced
+      //             by technology to optimize efficiency, comfort, and
+      //             productivity. Integrating IoT devices, sensors, and
+      //             automation, a smart office environment adapts to user
+      //             preferences, automates routine tasks, and monitors space
+      //             utilization. This technology-driven setup improves energy
+      //             efficiency, enhances employee well-being, and facilitates
+      //             seamless communication and collaboration within the workspace.`,
+      description: `Kiraybet(meaning 'house rent' in Amharic) is A rental house platform where owners can list properties, tenants can browse listings, and both parties can communicate through a Real time chat system.
+The platform delivers a secure authentication system with smooth onboarding for house tenants and owners. It includes dynamic filtering capabilities for house listings, an intuitive and responsive user interface, and interactive map integration for easy property navigation. House owners can efficiently post and manage rental services, while tenants benefit from a real-time chat system to communicate directly with owners.
+The system was built using modern technologies, including React.js, Node.js, Express.js, MongoDB, Mongoose, and Socket.io.`,
+      skills: [
+        "HTML5",
+        "CSS5",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+      ],
+    },
+
     {
       title: `academiX (Learning Management System(LMS))`,
       // description: `My LMS project automates the manual working environments in
@@ -147,31 +229,6 @@ Built with modern technologies such as React.js, Node.js, Express.js, MongoDB, a
         "Mongo DB",
         "Ant Design",
         "Bootstrap",
-      ],
-    },
-    {
-      // title: `Smart Office System`,
-      title: `kiraybet (House rental platform)`,
-      // description: `A smart office refers to an interconnected workspace enhanced
-      //             by technology to optimize efficiency, comfort, and
-      //             productivity. Integrating IoT devices, sensors, and
-      //             automation, a smart office environment adapts to user
-      //             preferences, automates routine tasks, and monitors space
-      //             utilization. This technology-driven setup improves energy
-      //             efficiency, enhances employee well-being, and facilitates
-      //             seamless communication and collaboration within the workspace.`,
-      description: `Kiraybet(meaning 'house rent' in Amharic) is A rental house platform where owners can list properties, tenants can browse listings, and both parties can communicate through a Real time chat system.
-The platform delivers a secure authentication system with smooth onboarding for house tenants and owners. It includes dynamic filtering capabilities for house listings, an intuitive and responsive user interface, and interactive map integration for easy property navigation. House owners can efficiently post and manage rental services, while tenants benefit from a real-time chat system to communicate directly with owners.
-The system was built using modern technologies, including React.js, Node.js, Express.js, MongoDB, Mongoose, and Socket.io.`,
-      skills: [
-        "HTML5",
-        "CSS5",
-        "JavaScript",
-        "TypeScript",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Socket.io",
       ],
     },
   ];
